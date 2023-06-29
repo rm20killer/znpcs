@@ -21,6 +21,7 @@ public enum NPCType {
     CREEPER(CacheRegistry.ENTITY_CREEPER_CLASS, -0.15, "setPowered"),
     BAT(CacheRegistry.ENTITY_BAT_CLASS, -0.5, "setAwake"),
     BLAZE(CacheRegistry.ENTITY_BLAZE_CLASS, 0),
+    CAT(CacheRegistry.ENTITY_CAT_CLASS, -1, "setCatType", "setAge"),
     CAVE_SPIDER(CacheRegistry.ENTITY_CAVE_SPIDER_CLASS, -1),
     COW(CacheRegistry.ENTITY_COW_CLASS, -0.25, "setAge"),
     CHICKEN(CacheRegistry.ENTITY_CHICKEN_CLASS, -1, "setAge"),

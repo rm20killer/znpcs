@@ -163,6 +163,11 @@ public final class CacheRegistry {
       .withAdditionalData("animal")
       .withClassName("EntityOcelot"))).load();
 
+  public static final Class<?> ENTITY_CAT_CLASS = (new TypeCache.BaseCache.ClazzLoader((new TypeCache.CacheBuilder(CachePackage.MINECRAFT_SERVER))
+
+          .withCategory(CacheCategory.ENTITY)
+          .withAdditionalData("animal")
+          .withClassName("EntityCat"))).load();
   public static final Class<?> ENTITY_TURTLE = (new TypeCache.BaseCache.ClazzLoader((new TypeCache.CacheBuilder(CachePackage.MINECRAFT_SERVER))
 
       .withCategory(CacheCategory.ENTITY)
